@@ -24,11 +24,7 @@ replace (
 	sigs.k8s.io/json => sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2
 )
 
-replace (
-	github.com/rancher/lasso => github.com/bhartigautam156/lasso v0.0.0-20260121065228-70b2c91143c4
-	github.com/rancher/rancher/norman => github.com/bhartigautam156/norman v0.0.0-20251230120334-71f332fee56c
-	github.com/rancher/wrangler/v3 => github.com/bhartigautam156/wrangler/v3 v3.3.2-0.20260121071658-21d254f6dd17
-)
+replace github.com/rancher/rancher/norman => github.com/bhartigautam156/norman v0.0.0-20260202103503-700f5a801d5a
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.2
@@ -131,8 +127,8 @@ require (
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.66.1 // indirect
 	github.com/prometheus/procfs v0.16.1 // indirect
-	github.com/rancher/lasso v0.2.5 // indirect
-	github.com/rancher/wrangler/v3 v3.2.0 // indirect
+	github.com/rancher/lasso v0.2.6 // indirect
+	github.com/rancher/wrangler/v3 v3.3.2-rc.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/smartystreets/assertions v1.0.1 // indirect
